@@ -15,5 +15,5 @@ steps:
     azureSubscription: 'script-connection'
     ScriptType: 'FilePath'
     ScriptPath: './Deploy-Simple.ps1'
-    ScriptArguments: -Location 'centralus' -ResourceGroupName 'simple2' -TemplateFile Templates\maintemplate.json
+    ScriptArguments: -Location 'centralus' -ResourceGroupName 'simple2' -TemplateFile templates\mainTemplate.json
     azurePowerShellVersion: 'LatestVersion'
